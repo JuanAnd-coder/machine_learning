@@ -1,0 +1,10 @@
+RESUMEN DE RESULTADOS - Regresion Lineal de Heridos (accidentes viales)
+Filas utiles: 660 | Train: 528 | Test: 132
+MAE train=0.6396 | MAE test=0.7083 | MAE base=0.6882
+RMSE train=0.8257 | RMSE test=0.8764 | RMSE base=0.8481
+R2 train=0.1757 | R2 test=-0.0713 | R2 base=-0.0034
+R2 CV 5 folds: media=-0.1153 std=0.0330
+MAE vs base: el modelo queda un 2.9% por debajo de la base (no la mejora). RMSE vs base: peor que la base en un 3.3%.
+Mayor peso: 'cat__Barrio_GUARATARA' (+1.755); segundo: 'cat__Barrio_LAS FERIAS' (+1.727)
+Registros eliminados por atipicos: 0 (casos reales conservados).
+Conclusion: R2 test -0.0713 (negativo): rendimiento INFERIOR al de un predictor que simplemente estima la media de la variable objetivo. El modelo presenta limitaciones claras con estas variables.

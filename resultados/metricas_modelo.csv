@@ -1,0 +1,12 @@
+metrica,conjunto,valor
+MAE,entrenamiento,0.6395633287098803
+MAE,prueba,0.708305637137814
+MAE_base,prueba,0.6881887052341598
+RMSE,entrenamiento,0.8256702616634471
+RMSE,prueba,0.8763650271921375
+RMSE_base,prueba,0.8481212018354185
+R2,entrenamiento,0.1756631737217098
+R2,prueba,-0.07132374311652634
+R2_base,prueba,-0.003382435353454394
+R2_CV_media,validacion_cruzada_5folds,-0.11527200743795145
+R2_CV_std,validacion_cruzada_5folds,0.03296161235810203
